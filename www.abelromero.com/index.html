@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abel Romero Pérez - Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="profile-picture">
+      <img class="main-image" src="/ARP.jpg" alt="Abel Romero Pérez">
+    </div>
+
+    <h1 id="about-me">About Me</h1>
+    <p>Hello, I'm Abel Romero Pérez, a Spanish developer with a passion for programming. I became fascinated with programming when I first saw the output of a program saying "Hello, World!". While my primary focus has always been on programming, I also have knowledge and experience in other areas. Although I no longer work in cybersecurity, I am currently studying to formalize my education and pursue opportunities in software engineering.</p>
+
+    <div class="profile">
+      <a href="https://github.com/looptc">
+        <p>Visit my profile on GitHub: <a href="https://github.com/looptc">looptc</a></p>
+      </a>
+    </div>
+
+    <h1 id="projects">Projects</h1>
+    <ul>
+      <li><a href="https://github.com/looptc/liblooptc">liblooptc</a></li>
+      <li><a href="https://github.com/looptc/stereosplit">stereosplit</a></li>
+      <li><a href="https://github.com/looptc/abelromero.com">abelromero.com</a></li>
+      <!-- Add more projects here -->
+    </ul>
+
+    <h1 id="tools">Nice Tools</h1>
+    <ul>
+      <li><a href="/tools/deprocpidnetcp.pl">deprocpidnetcp.pl</a> - Decode <code>/proc/net/tcp</code> or <code>/proc/&lt;pid&gt;/net/tcp</code>. Useful when you don't have <code>netstat</code>.</li>
+    </ul>
+
+    <div class="contact-section">
+      <h1 id="contact-me">Contact Me</h1>
+      <form action="/contact" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        <div class="g-recaptcha" data-sitekey="6Lfw62wpAAAAADOy16hzHjg6s4wexhCXG_JftgUt"></div>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <br>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="enlarge-image">
+    <img src="/ARP.jpg" alt="Abel Romero Pérez">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
